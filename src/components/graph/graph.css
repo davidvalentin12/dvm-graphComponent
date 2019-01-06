@@ -1,0 +1,48 @@
+.info-box {
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.info-box .t-light-gray {
+    color: #C1C1C1;
+}
+
+.info-box .t-dark-gray {
+    color: #6B6B6B;
+}
+
+.info-box.blue b#i1t {
+    color: #86C6E0;
+}
+
+.info-box.blue b#i2t {
+    color: #375264;
+}
+
+.info-box.orange b#i1t {
+    color: #E9C350;
+}
+
+.info-box.orange b#i2t {
+    color: #B05C30;
+}
+
+.info-box.green b#i1t {
+    color: #99D158;
+}
+
+.info-box.green b#i2t {
+    color: #466626;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.m-right {
+    margin-right: 5px;
+}
+
+.m-left {
+    margin-left: 5px;
+}

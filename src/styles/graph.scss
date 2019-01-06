@@ -1,0 +1,63 @@
+$light-green : #99D158;
+$dark-green :#466626;
+$light-blue: #86C6E0;
+$dark-blue: #375264;
+$light-orange: #E9C350;
+$dark-orange: #B05C30;
+$light-gray: #C1C1C1;
+$dark-gray:#6B6B6B;
+
+
+.info-box {
+    border-bottom: 1px solid #6B6B6B;
+    
+    .t-light-gray {
+        color: $light-gray;
+    }
+
+    .t-dark-gray {
+        color: $dark-gray;
+    }
+
+    &.blue{
+        b#i1t {
+            color: $light-blue;
+        }
+    
+        b#i2t {
+            color: $dark-blue;
+        }
+    }
+
+    &.orange{
+        b#i1t {
+            color: $light-orange;
+        }
+    
+        b#i2t {
+            color: $dark-orange;
+        }
+    }
+    
+    &.green{
+        b#i1t {
+            color: $light-green;
+        }
+    
+        b#i2t {
+            color: $dark-green;
+        }
+    }
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+.m-right{
+    margin-right:5px;
+}
+.m-left{
+    margin-left:5px;
+}
