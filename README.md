@@ -19,13 +19,14 @@ npm run build
 ```
 
 ### Folder structure:
+
 ```
 .
-├── README.md                           
-├── package-lock.json   
+├── README.md
+├── package-lock.json
 ├── package.json
 ├── public
-├── spec    
+├── spec
 │   ├── components                      --> Copying the same folder struncure as the 'src' folder
 │   │   └── graph                       --> Graph component tests
 │   │       ├── infoBoxHelper.spec.js   --> infoBoxHelper class tests
@@ -33,7 +34,7 @@ npm run build
 │   ├── run.js                          --> Entry point for jasmine tests suits
 │   └── support
 │       └── jasmine.json                --> Jasmine config support file
-├── src                                 --> Code goes in here
+├── src                             --> Code goes in here
 │   ├── components                      --> Folder for all the diferent components, in this case only one
 │   │   ├── graph                       --> Graph Component Folder. All files regarding one component
 │   │   │   ├── graph.css               --> Styles for the component
